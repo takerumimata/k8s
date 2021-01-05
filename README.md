@@ -22,3 +22,9 @@ simple-echo   1/2     CrashLoopBackOff   5          4m11s
 ```
 $
 ```
+
+マニフェストファイルで定義されているPodを全削除
+```zsh
+$ kubectl delete -f simple-pod.yaml 
+pod "simple-echo" deleted
+```
